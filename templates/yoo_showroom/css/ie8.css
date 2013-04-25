@@ -1,0 +1,53 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie8.css);
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#side-container { width: 100%; }
+
+.sidebar-a-fixed #side-container { position: relative; }
+
+#sidebar-a .sidebar-a-bottom-fixed { 
+	position: relative;
+	bottom: auto;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox input { line-height: 30px; }
+
+
+/* Style
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+/* Widgetkit Spotlight */
+.wk-ie .spotlight .overlay-default { 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#10000000', endColorstr='#10000000');
+	background-image: url(../images/widgetkit/spotlight/magnifier.png); 
+}
+

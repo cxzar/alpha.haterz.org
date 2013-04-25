@@ -1,0 +1,98 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#header,
+#toolbar, 
+#breadcrumbs,
+#content { margin: 10px; }
+
+#toolbar .module { margin: 0; }
+#footer .module { margin: 10px 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+.page-left .wrapper { margin: 0; }
+
+.sidebar-a-fixed #side-container { position: fixed; }
+
+/* Blocks */
+
+#block-side { 
+	position: relative;
+	z-index: 99;
+}
+
+#block-side,
+#block-main {
+	padding: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.separator-side #block-side,
+.separator-main #block-main { 
+	border-width: 0 1px 0 0;
+	border-style: solid;
+}
+
+.sidebar-a-right.separator-side #block-side,
+.sidebar-a-right.separator-main #block-main { border-width: 0 0 0 1px; }
+
+/* Sidebar A Fixed Module */
+#sidebar-a .sidebar-a-bottom-fixed {
+	position: fixed;
+	bottom: 20px;
+}
+
+/* Header */ 
+#logo,
+#search,
+#menu {
+	margin-bottom: 15px; 
+	padding-bottom: 15px; 
+	border-width: 0 0 1px 0;
+	border-style: solid;
+}
+
+#logo { 
+	display: block;
+	float: none;
+}
+
+#logo > img,
+#menu,
+#search { float: none; }
+
+/* Needed for fancy follower */
+#menu { position: relative; }
+
+/* Footer */
+#footer {
+	margin: 10px;
+	padding-top: 10px;
+	border-style: solid;
+	border-width: 1px 0 0 0;
+}
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 22px;
+	height: 22px;
+	text-decoration: none;
+	z-index: 1;
+}
+
+#totop-scroller:hover { opacity: 1; }
+

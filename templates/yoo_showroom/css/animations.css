@@ -1,0 +1,51 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@media (min-device-width: 1025px)  {
+
+	body { -webkit-font-smoothing: antialiased; }
+
+	a,
+	.menu-dropdown span,
+	.menu-sidebar li > span,
+	.menu-sidebar a,
+	.searchbox input,
+	.searchbox .results li.result h3, 
+	.searchbox .results li.result.selected,
+	.searchbox .results li.more-results {
+		-webkit-transition: color 0.15s linear;
+		-moz-transition: color 0.15s linear;
+		transition: color 0.15s linear;
+	}
+
+	.searchbox {
+		-webkit-transition: background-color 0.15s linear;
+		-moz-transition: background-color 0.15s linear;
+		transition: background-color 0.15s linear;
+	}
+
+	#system .pagination a,
+	.button-default,
+	.button-primary,
+	form.style button, 
+	form.style input[type="button"],
+	form.style input[type="submit"],
+	form.style input[type="text"]:hover,
+	form.style input[type="password"]:hover,
+	form.style select:hover,
+	form.style textarea:hover {
+		-webkit-transition: all 0.15s linear;
+		-moz-transition: all 0.15s linear;
+		transition: all 0.15s linear;
+	}
+
+	#totop-scroller:hover,
+	.social-icons a:hover,
+	#system .item > .links a:hover,
+	#system .item > .links a + a:hover {
+		-webkit-transition: opacity 0.15s linear;
+		-moz-transition: opacity 0.15s linear;
+		transition: opacity 0.15s linear;
+	}
+	
+}
+

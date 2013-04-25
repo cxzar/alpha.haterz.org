@@ -1,0 +1,19 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+#page {
+	background: url(../../images/background/road/road.jpg) 50% 50% no-repeat fixed;
+	background: 
+		url(../../images/background/texture/diagonal_50.png) 0 0 repeat fixed,
+		url(../../images/background/road/road.jpg) 0 50% no-repeat fixed,
+		#a2c1c6;
+}
+
+@media (max-device-width: 1024px)  {
+
+	#page {
+		background-image: none;
+		background-color: #a2c1c6;
+	}
+
+}
+

@@ -1,0 +1,20 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+#page {
+	background: url(../../images/background/city/city.jpg) 50% 50% no-repeat fixed;
+	background: 
+		url(../../images/background/texture/diagonal_50.png) 0 0 repeat fixed,
+		url(../../images/background/city/city.jpg) 50% 50% no-repeat fixed,
+		#28292d;
+	background-size: auto, cover;
+}
+
+@media (max-device-width: 1024px)  {
+
+	#page {
+		background-image: none; 
+		background-color: #28292d;
+	}
+
+}
+

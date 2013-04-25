@@ -1,0 +1,38 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+ .custom-logo {
+	width: 205px;
+	height: 145px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+ .sidebar-white .custom-logo,
+ .sidebar-lightgrey .custom-logo { background-image: url(../../../images/yootheme/logo_white.png); }
+
+ .sidebar-black .custom-logo,
+ .sidebar-darkgrey .custom-logo { background-image: url(../../../images/yootheme/logo_black.png); }
+
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	.custom-logo { 
+		width: 70px;
+		height: 90px;
+		margin: auto;
+	}
+
+	 .sidebar-white .custom-logo,
+	 .sidebar-lightgrey .custom-logo { background-image: url(../../../images/yootheme/logo_responsive_white.png); }
+	 
+	 .sidebar-black .custom-logo,
+	 .sidebar-darkgrey .custom-logo { background-image: url(../../../images/yootheme/logo_responsive_black.png); }
+
+}
+

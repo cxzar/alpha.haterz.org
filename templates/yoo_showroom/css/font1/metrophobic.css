@@ -1,0 +1,15 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body { font-family: "MetrophobicRegular"; }
+
+.menu-dropdown span.subtitle,
+.menu-dropdown li.level3,
+.menu-sidebar li.level2 a > span,
+.breadcrumbs strong,
+.breadcrumbs a,
+.breadcrumbs > span,
+.searchbox .results li.result div,
+#system .item > header .meta { word-spacing: 2px; }
+
+#system .pagination a.previous, #system .pagination a.next { line-height: 26px; }
+

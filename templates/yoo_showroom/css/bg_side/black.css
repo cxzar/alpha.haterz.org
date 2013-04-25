@@ -1,0 +1,286 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+#block-side { color: #999; }
+
+#block-side a { color: #eee; }
+#block-side a:hover { color: #808080; }
+
+#block-side em, 
+#block-side code { color: #eee; }
+
+#block-side ins, 
+#block-side mark { 
+	background-color: #eee;
+	color: #000;
+}
+
+#block-side h1,
+#block-side h2,
+#block-side h3,
+#block-side h4,
+#block-side h5,
+#block-side h6 { color: #eee; }
+
+#block-side hr { border-top-color: #262626; }
+
+#block-side pre {
+	border-color: #2d2d2d;
+	background: #1a1a1a;
+}
+
+#block-side ::-moz-selection { background: #fff; color: #262626; }
+#block-side ::selection { background: #fff; color: #262626; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#block-side {
+	border-color: #262626;
+	background: #000;
+}
+
+.separator-side .searchbox .results { border-color: #262626;}
+
+#logo,
+#search,
+#menu { border-color: #262626; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+
+#menu .menu-dropdown a.level1,
+#menu .menu-dropdown span.level1 { color: #eee; }
+
+/* Set Active */
+#menu .menu-dropdown li.active .level1 { color: #808080; }
+
+/* Set Hover */
+#menu .menu-dropdown li.level1:hover .level1,
+#menu .menu-dropdown li.remain .level1 { color: #808080; }
+
+#menu-follower { background-image: url(../../images/black/menu_dropdown_level1.png); }
+
+
+/* Sidebar/Accordion Menu */
+
+/* Level 1 */
+#block-side .menu-sidebar li.parent .level1 > span { background-image: url(../../images/black/menu_sidebar_parent.png); }
+
+/* Level 2-4 */
+#block-side .menu-sidebar ul.level2:before { border-color: #262626; }
+#block-side .menu-sidebar ul.level2 ul:before { border-color: #3c3c3c; }
+
+/* Link */
+#block-side .menu-sidebar a,
+#block-side .menu-sidebar li > span { color: #eee; }
+
+/* Hover */
+#block-side .menu-sidebar a:hover,
+#block-side .menu-sidebar li > span:hover { color: #808080; }
+
+/* Current */
+#block-side .menu-sidebar a.current,
+#block-side .menu-sidebar a.active,
+#block-side .menu-sidebar span.active { color: #808080; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+#block-side .module-title { color: #eee; }
+
+/* Module Type: Box */
+#block-side .module .badge { background-image: url(../../images/black/module_badges.png); }
+
+#block-side .module .module-title .icon { background-image: url(../../images/black/module_icons.png); }
+
+#block-side .mod-box { border-color: #262626; }
+
+
+/* Module Type: Line */
+#block-side .mod-line:before { border-color: #262626; }
+
+/* Module Type: Headerline*/
+#block-side .mod-headerline .module-title { border-color: #262626; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Buttons (Needed for System Markup) */
+#block-side .button-default,
+#block-side .button-primary:hover {
+	background: #fff;
+	color: #000;
+}
+
+#block-side .button-primary,
+#block-side .button-default:hover {
+	background: #262626;
+	color: #fff;
+}
+
+
+/* Lists and Tables (Needed for System Markup) */
+
+/* Line */
+#block-side ul.line > li { background-image: url(../../images/black/tools/list_line.png); }
+
+#block-side ul.line > li:first-child { background: none; }
+
+/* Check */
+#block-side ul.check > li { background-image: url(../../images/black/tools/list_check.png); }
+
+/* Zebra List and Table */
+#block-side ul.zebra > li,
+#block-side table.zebra tbody td { border-color: #2d2d2d; }
+
+#block-side ul.zebra > li:first-child,
+#block-side table.zebra tbody tr:first-child td { border-color: #2d2d2d; }
+
+#block-side ul.zebra > li.odd,
+#block-side table.zebra tbody tr.odd { background: #1a1a1a; }
+
+#block-side ul.zebra > li:nth-of-type(odd),
+#block-side table.zebra tbody tr:nth-of-type(odd) { background: #1a1a1a; }
+
+#block-side table.zebra caption { color: #ccc; }
+
+
+/* ZOO List */
+#block-side ul.zoo-list > li,
+#block-side .zoo-comments-list > article { border-color: #262626; }
+
+
+/* Text */
+
+/* Inline Text Box */
+#block-side em.box { 
+	background: #eee;
+	color: #262626;
+}
+
+/* Dotted Horizontal Rule */
+#block-side hr.dotted { background-image: url(../../images/black/tools/line_dotted.png); }
+
+
+/* Boxes */
+#block-side .box-content,
+#block-side .box-note,
+#block-side .box-info,
+#block-side .box-warning,
+#block-side .box-hint,
+#block-side .box-download {
+	border-color: #2d2d2d;
+	background-color: #1a1a1a;
+}
+
+#block-side .box-info {	background-image: url(../../images/black/tools/box_info.png); }
+
+#block-side .box-warning { background-image: url(../../images/black/tools/box_warning.png); }
+
+#block-side .box-hint { background-image: url(../../images/black/tools/box_hint.png); }
+
+#block-side .box-download { background-image: url(../../images/black/tools/box_download.png); }
+
+
+/* Forms (Needed for System Markup) */
+#block-side form.box fieldset { border-color: #262626; }
+#block-side form.box fieldset legend { color: #999; }
+
+#block-side form.style input[type="text"],
+#block-side form.style input[type="password"],
+#block-side form.style select,
+#block-side form.style textarea {
+	border-color: #262626;
+	background-color: #000;
+	color: #808080;
+}
+
+#block-side form.style input[type="text"]:hover,
+#block-side form.style input[type="password"]:hover,
+#block-side form.style select:hover,
+#block-side form.style textarea:hover,
+#block-side form.style input[type="text"]:focus,
+#block-side form.style input[type="password"]:focus,
+#block-side form.style select:focus,
+#block-side form.style textarea:focus {
+	border-color: #262626;
+	background-color: #1a1a1a;
+	color: #eee;
+}
+
+#block-side form.style button, 
+#block-side form.style input[type="button"],
+#block-side form.style input[type="submit"] { 
+	background-color: #262626;
+	color: #eee;
+}
+
+#block-side form.style button:hover,
+#block-side form.style input:hover[type="button"],
+#block-side form.style input:hover[type="submit"] { 
+	background: #eee;
+	color: #000;
+}
+
+/* Social Icons */
+#block-side .social-icons li a { background-image: url(../../images/black/tools/icons_social.png) ; }
+
+#block-side .social-icons .twitter a { opacity: 1; }
+#block-side .social-icons .twitter a:hover { opacity: 0.3; }
+
+#block-side .social-icons .facebook a { opacity: 1; }
+#block-side .social-icons .facebook a:hover { opacity: 0.3; }
+
+#block-side .social-icons .googleplus a { opacity: 1; }
+#block-side .social-icons .googleplus a:hover { opacity: 0.3; }
+
+#block-side .social-icons .vimeo a { opacity: 1; }
+#block-side .social-icons .vimeo a:hover { opacity: 0.3; }
+
+#block-side .social-icons .flickr a { opacity: 1; }
+#block-side .social-icons .flickr a:hover { opacity: 0.3; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox { 
+	border-color: #262626;
+	background-image: url(../../images/black/searchbox_magnifier.png); 
+}
+
+.searchbox:hover { background-color: #1a1a1a; }
+
+.searchbox input { color: #999; }
+.searchbox:hover input { color: #eee; }
+.searchbox input:-moz-placeholder { color: #999; }
+.searchbox:hover input:-moz-placeholder { color: #eee; }
+.searchbox input::-webkit-input-placeholder { color: #999; }
+.searchbox:hover input::-webkit-input-placeholder { color: #eee; }
+.searchbox input.placeholder { color: #999; }
+.searchbox:hover input.placeholder { color: #eee; }
+
+.searchbox.filled button { background-image: url(../../images/black/searchbox_reset.png); }
+
+.searchbox.loading button { background-image: url(../../images/black/searchbox_loader.gif); }
+
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+/* Twitter */
+
+/* Style List */
+.wk-twitter-list article { border-color: #262626; }
+

@@ -1,0 +1,142 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/responsive.css);
+
+
+/* Breakpoints
+----------------------------------------------------------------------------------------------------*/
+
+/* All except large Screens */
+@media (max-width: 1220px) {
+
+}
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Modules */
+	.grid-h .mod-line:before { border-left: 0; }
+
+	#sidebar-b .grid-h:first-child .mod-line:before, 
+	#sidebar-b .grid-v:first-child .mod-line:before { border-width: 1px 0 0 0; }
+
+}
+
+/* Only Tablets (Portrait) */
+@media (min-width: 768px) and (max-width: 959px) {
+
+	/* Layout */
+	.sidebars-1 #sidebar-a .width100 { width: 100%; }
+
+	/* Menu */
+	.separator-side .menu-dropdown { margin-right: -21px; }
+	.separator-side #menu-follower { right: -29px; }
+
+	/* System */
+	.separator-side .searchbox .results { margin-left: 21px; }
+
+}
+
+/* Only Tablets (Portrait) and Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 959px) {
+
+	/* Layout */
+	.sidebars-2 #sidebar-a,
+	.sidebars-2 #sidebar-b { width: 100%; }
+
+	.sidebars-1 #sidebar-b .width100,
+	.sidebars-2 #sidebar-b .width100 { width: 50%; }
+
+	/* Modules */
+	.grid-h:nth-child(n+3) > .mod-line { padding-top: 20px; }
+
+	.grid-h:nth-child(n+3) > .mod-line:before { 	
+		top: 0;
+		bottom: auto;
+		left: 0;
+		right: 0;
+		border-width: 1px 0 0 0;
+	}
+
+	.grid-h:nth-child(n+3) > .mod-line .badge { top: 15px; }
+
+}
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	/* Layout */
+	#logo, 
+	#search,
+	#toolbar,
+	#headerbar,
+	#menu,
+	#breadcrumbs { display: none; }
+
+	#block-side,
+	#block-main { width: 100%; }
+
+	#header { margin-top: 0; }
+
+	#sidebar-a .grid-v:last-child .mod-line:before { border-width: 0; }
+
+	#side-container {
+		width: 100% !important;
+		position: relative !important;
+	}
+
+	.sidebar-a-bottom-fixed { display: none; }
+
+	.separator-side #block-side { border-width: 0 0 1px 0; }
+
+}
+
+/* Only Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 767px) {
+
+	.sidebars-2 #sidebar-a .width100 { width: 50%; }
+
+}
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+	/* Modules */
+	.grid-h .mod-line,
+	.grid-v:first-child .mod-line { padding-top: 20px; }
+
+	.grid-h .mod-line:before { 	
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: auto;
+		border-width: 1px 0 0 0;
+	}
+
+	.mod-line .badge { top: 15px;	}
+
+	/* System */
+	#system .items .item,
+	#system .items .item:first-child {
+		margin-top: 12px;
+		padding-top: 18px;
+		border-top-width: 1px;
+	}
+
+	#system .items :first-child .item:first-child {
+		margin-top: 0;
+		padding-top: 0;
+		border-width: 0;
+	}
+
+	#system .items .leading .item {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border-width: 0;
+	}
+
+	/* Featured Image */
+	#system .items > .width50 .featured-image,
+	#system .items > .width50 + .width50 .featured-image { margin: 0 -20px 20px -20px; }
+
+}

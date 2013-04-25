@@ -1,0 +1,286 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+	
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+#block-side { color: #767676; }
+
+#block-side a { color: #d1d1d1; }
+#block-side a:hover { color: #767676; }
+
+#block-side em, 
+#block-side code { color: #d1d1d1; }
+
+#block-side ins, 
+#block-side mark { 
+	background-color: #d1d1d1; 
+	color: #232323;
+}
+
+#block-side h1,
+#block-side h2,
+#block-side h3,
+#block-side h4,
+#block-side h5,
+#block-side h6 { color: #d1d1d1; }
+
+#block-side hr { border-top-color: #313131; }
+
+#block-side pre {
+	border-color: #313131;
+	background: #232323;
+}
+
+#block-side ::-moz-selection { background: #d1d1d1; color: #313131; }
+#block-side ::selection { background: #d1d1d1; color: #313131; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#block-side {
+	border-color: #313131;
+	background: #1a1a1a;
+}
+
+.separator-side .searchbox .results { border-color: #313131;}
+
+#logo,
+#search,
+#menu { border-color: #313131; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+
+#menu .menu-dropdown a.level1,
+#menu .menu-dropdown span.level1 { color: #d1d1d1; }
+
+/* Set Active */
+#menu .menu-dropdown li.active .level1 { color: #767676; }
+
+/* Set Hover */
+#menu .menu-dropdown li.level1:hover .level1,
+#menu .menu-dropdown li.remain .level1 { color: #767676; }
+
+#menu-follower { background-image: url(../../images/darkgrey/menu_dropdown_level1.png); }
+
+
+/* Sidebar/Accordion Menu */
+
+/* Level 1 */
+#block-side .menu-sidebar li.parent .level1 > span { background-image: url(../../images/darkgrey/menu_sidebar_parent.png); }
+
+/* Level 2-4 */
+#block-side .menu-sidebar ul.level2:before { border-color: #313131; }
+#block-side .menu-sidebar ul.level2 ul:before { border-color: #3c3c3c; }
+
+/* Link */
+#block-side .menu-sidebar a,
+#block-side .menu-sidebar li > span { color: #d1d1d1; }
+
+/* Hover */
+#block-side .menu-sidebar a:hover,
+#block-side .menu-sidebar li > span:hover { color: #767676; }
+
+/* Current */
+#block-side .menu-sidebar a.current,
+#block-side .menu-sidebar a.active,
+#block-side .menu-sidebar span.active { color: #767676; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+#block-side .module-title { color: #d1d1d1; }
+
+/* Module Type: Box */
+#block-side .module .badge { background-image: url(../../images/darkgrey/module_badges.png); }
+
+#block-side .module .module-title .icon { background-image: url(../../images/darkgrey/module_icons.png); }
+
+#block-side .mod-box { border-color: #313131; }
+
+
+/* Module Type: Line */
+#block-side .mod-line:before { border-color: #313131; }
+
+/* Module Type: Headerline*/
+#block-side .mod-headerline .module-title { border-color: #313131; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Buttons (Needed for System Markup) */
+#block-side .button-default,
+#block-side .button-primary:hover {
+	background: #eee;
+	color: #232323;
+}
+
+#block-side .button-primary,
+#block-side .button-default:hover {
+	background: #313131;
+	color: #d1d1d1;
+}
+
+
+/* Lists and Tables (Needed for System Markup) */
+
+/* Line */
+#block-side ul.line > li { background-image: url(../../images/darkgrey/tools/list_line.png); }
+
+#block-side ul.line > li:first-child { background: none; }
+
+/* Check */
+#block-side ul.check > li { background-image: url(../../images/darkgrey/tools/list_check.png); }
+
+/* Zebra List and Table */
+#block-side ul.zebra > li,
+#block-side table.zebra tbody td { border-color: #313131; }
+
+#block-side ul.zebra > li:first-child,
+#block-side table.zebra tbody tr:first-child td { border-color: #313131; }
+
+#block-side ul.zebra > li.odd,
+#block-side table.zebra tbody tr.odd { background: #232323; }
+
+#block-side ul.zebra > li:nth-of-type(odd),
+#block-side table.zebra tbody tr:nth-of-type(odd) { background: #232323; }
+
+#block-side table.zebra caption { color: #ccc; }
+
+
+/* ZOO List */
+#block-side ul.zoo-list > li,
+#block-side .zoo-comments-list > article { border-color: #313131; }
+
+
+/* Text */
+
+/* Inline Text Box */
+#block-side em.box { 
+	background: #d1d1d1;
+	color: #313131;
+}
+
+/* Dotted Horizontal Rule */
+#block-side hr.dotted { background-image: url(../../images/darkgrey/tools/line_dotted.png); }
+
+
+/* Boxes */
+#block-side .box-content,
+#block-side .box-note,
+#block-side .box-info,
+#block-side .box-warning,
+#block-side .box-hint,
+#block-side .box-download {
+	border-color: #313131;
+	background-color: #232323;
+}
+
+#block-side .box-info {	background-image: url(../../images/darkgrey/tools/box_info.png); }
+
+#block-side .box-warning { background-image: url(../../images/darkgrey/tools/box_warning.png); }
+
+#block-side .box-hint { background-image: url(../../images/darkgrey/tools/box_hint.png); }
+
+#block-side .box-download { background-image: url(../../images/darkgrey/tools/box_download.png); }
+
+
+/* Forms (Needed for System Markup) */
+#block-side form.box fieldset { border-color: #313131; }
+#block-side form.box fieldset legend { color: #767676; }
+
+#block-side form.style input[type="text"],
+#block-side form.style input[type="password"],
+#block-side form.style select,
+#block-side form.style textarea {
+	border-color: #313131;
+	background-color: #1a1a1a;
+	color: #5f5f5f;
+}
+
+#block-side form.style input[type="text"]:hover,
+#block-side form.style input[type="password"]:hover,
+#block-side form.style select:hover,
+#block-side form.style textarea:hover,
+#block-side form.style input[type="text"]:focus,
+#block-side form.style input[type="password"]:focus,
+#block-side form.style select:focus,
+#block-side form.style textarea:focus {
+	border-color: #3c3c3c;
+	background-color: #232323;
+	color: #eee;
+}
+
+#block-side form.style button, 
+#block-side form.style input[type="button"],
+#block-side form.style input[type="submit"] { 
+	background-color: #313131;
+	color: #d1d1d1;
+}
+
+#block-side form.style button:hover,
+#block-side form.style input:hover[type="button"],
+#block-side form.style input:hover[type="submit"] { 
+	background: #d1d1d1;
+	color: #1a1a1a;
+}
+
+/* Social Icons */
+#block-side .social-icons li a { background-image: url(../../images/darkgrey/tools/icons_social.png) ; }
+
+#block-side .social-icons .twitter a { opacity: 0.9; }
+#block-side .social-icons .twitter a:hover { opacity: 0.3; }
+
+#block-side .social-icons .facebook a { opacity: 0.9; }
+#block-side .social-icons .facebook a:hover { opacity: 0.3; }
+
+#block-side .social-icons .googleplus a { opacity: 0.9; }
+#block-side .social-icons .googleplus a:hover { opacity: 0.3; }
+
+#block-side .social-icons .vimeo a { opacity: 0.9; }
+#block-side .social-icons .vimeo a:hover { opacity: 0.3; }
+
+#block-side .social-icons .flickr a { opacity: 0.9; }
+#block-side .social-icons .flickr a:hover { opacity: 0.3; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox { 
+	border-color: #313131;
+	background-image: url(../../images/darkgrey/searchbox_magnifier.png); 
+}
+
+.searchbox:hover { background-color: #232323; }
+
+.searchbox input { color: #999; }
+.searchbox:hover input { color: #d1d1d1; }
+.searchbox input:-moz-placeholder { color: #999; }
+.searchbox:hover input:-moz-placeholder { color: #d1d1d1; }
+.searchbox input::-webkit-input-placeholder { color: #999; }
+.searchbox:hover input::-webkit-input-placeholder { color: #d1d1d1; }
+.searchbox input.placeholder { color: #999; }
+.searchbox:hover input.placeholder { color: #d1d1d1; }
+
+.searchbox.filled button { background-image: url(../../images/darkgrey/searchbox_reset.png); }
+
+.searchbox.loading button { background-image: url(../../images/darkgrey/searchbox_loader.gif); }
+
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+/* Twitter */
+
+/* Style List */
+.wk-twitter-list article { border-color: #313131; }
+

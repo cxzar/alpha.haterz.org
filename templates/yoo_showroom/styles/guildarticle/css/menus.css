@@ -1,0 +1,252 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../../../css/menus.css);
+
+
+.item101,
+.item102,
+.item132,
+.item105,
+.item106,
+.item107 {
+	visibility: hidden;
+}
+
+.menu-dropdown span.level1 > span {
+	background: url(http://alpha.haterz.org/images/yootheme/icon_joomla.png) no-repeat;
+	float: right;
+	width: 26px;
+	height: 28px;
+	margin-right: 2px !important;
+}
+
+.menu-dropdown span.icon {
+	float: right;
+	visibility: visible;
+}
+
+/*#logino {
+	visibility: visible !important;
+	background: url(../../../images/yootheme/icon_joomla.png) no-repeat;
+}*/
+
+
+/* Mega Drop-Down Menu
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.menu-dropdown,
+.menu-dropdown .level1,
+.menu-dropdown .level1 > span { float: none; }
+
+/* Level 1 */
+.menu-dropdown { margin-right: -20px; }
+
+.sidebar-a-right .menu-dropdown {
+	margin-left: -20px;
+	margin-right: 0; 
+}
+.sidebar-a-right.separator-side .menu-dropdown { margin-left: -21px; }
+
+.menu-dropdown li.level1 {
+	padding-right: 20px;
+	padding-bottom: 8px; 
+}
+.menu-dropdown li.level1:last-child { padding-bottom: 0; }
+.menu-dropdown + .menu-dropdown li.level1:first-child {	padding-top: 8px; }
+.menu-dropdown + .menu-dropdown li.level1:last-child { padding-bottom: 0; }
+
+.sidebar-a-right .menu-dropdown li.level1 {
+	padding-left: 20px;
+	padding-right: 0;
+}
+.sidebar-a-right.separator-side .menu-dropdown li.level1 { padding-left: 21px; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { font-size: 18px }
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span {	
+	display: inline;
+	padding: 0;
+	line-height: 24px;
+}
+
+/* Subtitles */
+.menu-dropdown .hassubtitle a.level1 > span,
+.menu-dropdown .hassubtitle span.level1 > span {
+	height: 35px;
+	line-height: 35px;
+}
+
+.menu-dropdown span.subtitle {
+	margin-top: 0;
+	margin-bottom: 3px;
+	font-size: 11px;
+	line-height: 11px;
+}
+
+/* Menu Follower */
+#menu-follower {
+	display: none;
+	position: absolute;
+	right: -28px;
+	z-index: 101;
+	height: 17px;
+	width: 9px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.sidebar-a-right #menu-follower { 
+	left: -28px;
+	right: auto;
+}
+.sidebar-a-right.separator-side #menu-follower { left: -29px; }
+
+.separator-side #menu-follower { background-position: 0 -20px; }
+.sidebar-a-right #menu-follower { background-position: 0 -40px; }
+.sidebar-a-right.separator-side #menu-follower { background-position: 0 -60px; }
+
+/* Drop-Down */
+.menu-dropdown .dropdown {
+	top: -5px;
+	left: 100%;
+}
+
+.sidebar-a-right .menu-dropdown .dropdown {
+	left: auto;
+	right: 100%;
+}
+
+.menu-dropdown .dropdown-bg > div {	
+	padding: 10px 15px; 
+	border-width: 5px 5px 5px 0;
+	border-style: solid;
+	background-clip: padding-box;
+}
+
+.sidebar-a-right .menu-dropdown .dropdown-bg > div { border-width: 5px 0 5px 5px; }
+
+/* Columns */
+.menu-dropdown .column {
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	padding-left: 10px;
+}
+
+.menu-dropdown .stack .column, 
+.menu-dropdown .column:first-child {
+	border-left-width: 0;
+	padding: 0;
+}
+
+/* Level 2 */
+.menu-dropdown li.level2 { margin: 0 5px; }
+
+.menu-dropdown a.level2 > span, 
+.menu-dropdown span.level2 > span { 
+	padding: 6px 0;
+	line-height: 18px; 
+}
+
+/* Level 3 */
+.menu-dropdown ul.level2 ul { position: relative; }
+
+.menu-dropdown ul.level2 ul:before {
+	content: '';
+	display: block;
+	position: absolute;
+	border-width: 0 0 0 1px;
+}
+
+.menu-dropdown ul.level3 { padding: 0 0 5px 10px; }
+
+.menu-dropdown ul.level3:before {
+	left: 0;
+	top: 4px;
+	bottom: 10px;
+	border-style: solid;
+}
+
+.menu-dropdown li.level3 {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/* Level 4 */
+.menu-dropdown ul.level4 { padding: 0 0 5px 10px; }
+
+.menu-dropdown ul.level4:before {
+	left: 0;
+	top: 4px;
+	bottom: 9px;
+	border-style: dotted;
+}
+
+
+/* Sidebar/Accordion Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-sidebar li.parent .level1 > span { 
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+}
+
+.menu-sidebar li.parent.active .level1 > span { background-position: 100% -100px; }
+
+/* Level 2 */
+.menu-sidebar .level1 ul { position: relative; }
+
+.menu-sidebar .level1 ul:before {
+	content: '';
+	display: block;
+	position: absolute;
+	border-width: 0 0 0 1px;
+}
+
+.menu-sidebar ul.level2 { padding-left: 15px; }
+
+.menu-sidebar ul.level2:before {
+	left: 3px;
+	top: 4px;
+	bottom: 14px;
+	border-style: solid;
+}
+
+/* Level 3-4 */
+.menu-sidebar ul.level2 ul { padding-left: 10px; }
+
+.menu-sidebar ul.level2 ul:before {
+	left: 0;
+	top: 4px;
+	bottom: 4px;
+	border-style: dotted;
+}
+
+.menu-sidebar li.level1:last-child ul.level2:before { bottom: 4px; }
+
+.menu-sidebar li.level2 a > span {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+
+/* Line Menu
+----------------------------------------------------------------------------------------------------*/
+
+.menu-line li {
+	margin-left: 7px;
+	padding-left: 7px;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+}
+
+.menu-line li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+	background: none;
+}
+

@@ -1,0 +1,13 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Widgetkit
+----------------------------------------------------------------------------------------------------*/
+
+/* Spotlight */
+.spotlight .overlay-default {
+	background-image: url(../images/widgetkit/spotlight/magnifier.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0.1);
+}
+

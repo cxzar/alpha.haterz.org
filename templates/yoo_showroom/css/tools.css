@@ -1,0 +1,181 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/tools.css);
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+.button-default,
+.button-primary { padding: 3px 10px; }
+
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box { border: 1px solid #ddd; }
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* Line */
+ul.line > li { 
+	background-repeat: repeat-x;
+	background-position: 0 0; 
+}
+
+/* Check */
+ul.check > li {
+	padding: 4px 0 0 30px;
+	background-repeat: no-repeat;
+	background-position: 0 0; 
+}
+
+/* Zebra List and Table */
+ul.zebra > li,
+table.zebra tbody td { 
+	border-width: 0 0 1px 0;
+	border-style: solid;
+}
+
+ul.zebra > li:first-child,
+table.zebra tbody tr:first-child td { border-top-width: 1px; }
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #DDD;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-top: 1px solid #DDD;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	border: 1px solid #DDD;
+	border-radius:6px;
+	background: #FFF;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Dotted Horizontal Rule */
+hr.dotted { 
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content,
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box fieldset { 
+	border-width: 1px;
+	border-style: solid; 
+}
+
+form.style input[type="text"],
+form.style input[type="password"],
+form.style select,
+form.style textarea {
+	padding: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 0;
+}
+
+form.style button, 
+form.style input[type="button"],
+form.style input[type="submit"] { 
+	padding: 6px 10px;
+	border: none;
+	border-radius: 0;
+}
+
+
+/* Social Icons
+----------------------------------------------------------------------------------------------------*/
+
+.social-icons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.social-icons li {
+	margin-left: 10px;
+	line-height: 39px;
+	float: left;
+}
+
+.social-icons li:first-child { margin-left: 0; }
+
+.social-icons li a {
+	display: block;
+	overflow: hidden;
+	width: 25px;
+	height: 25px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.social-icons .twitter a { background-position: 0 0; }
+.social-icons .facebook a { background-position: 0 -30px; }
+.social-icons .googleplus a { background-position: 0 -60px; }
+.social-icons .vimeo a { background-position: 0 -90px; }
+.social-icons .flickr a { background-position: 0 -120px; }
+

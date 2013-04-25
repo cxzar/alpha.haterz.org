@@ -1,0 +1,114 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/modules.css);
+
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+ 
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -40px; }
+.module .badge-free { background-position: 0 -80px; }
+.module .badge-new { background-position: 0 -120px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon { 
+	top: -3px; 
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -30px; }
+.module .module-title .icon-mail { background-position: 0 -60px; }
+.module .module-title .icon-bubble { background-position: 0 -90px; }
+.module .module-title .icon-login { background-position: 0 -120px; }
+.module .module-title .icon-cart { background-position: 0 -150px; }
+
+
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box { 
+	padding: 10px; 
+	border-style: solid;
+	border-width: 1px;
+}
+
+.mod-box .badge { 
+	top: -10px;
+	right: -10px; 
+}
+
+
+/* Module Type: Line
+----------------------------------------------------------------------------------------------------*/
+
+.grid-v .mod-line {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mod-line:before {
+	content: "";
+	display: block;
+	position: absolute;
+	border-style: solid;
+}
+
+.grid-h .mod-line:before {
+	top: 0;
+	bottom: 0;
+	left: -10px;
+	border-width: 0 0 0 1px;
+}
+
+.grid-v .mod-line:before {
+	top: -10px;
+	left: 0;
+	right: 0;
+	border-width: 1px 0 0 0;
+}
+
+#sidebar-a .grid-v .mod-line:before {
+	bottom: -10px;
+	top: auto;
+}
+
+.grid-h:first-child .mod-line:before,
+.grid-v:first-child .mod-line:before { border-width: 0; }
+
+#sidebar-a .grid-v:first-child .mod-line:before { border-top-width: 1px; }
+
+.grid-v .mod-line .badge { top: 5px; }
+
+.mod-line .badge { 
+	top: -5px;
+	right: 0; 
+}
+
+
+/* Module Type: Headerline
+----------------------------------------------------------------------------------------------------*/
+
+.mod-headerline .module-title {	
+	padding-bottom: 15px;
+	border-style: solid;
+	border-width: 0 0 1px 0; 
+}
+
+.mod-headerline .badge { 
+	top: -5px;
+	right: 0; 
+}
+

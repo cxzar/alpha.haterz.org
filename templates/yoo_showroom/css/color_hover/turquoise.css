@@ -1,0 +1,23 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+#page a:hover,
+#menu .menu-dropdown li.level1:hover .level1,
+#menu .menu-dropdown li.remain .level1,
+#page #menu .menu-dropdown a:hover,
+#page #menu .menu-dropdown li.level2 a:hover span.subtitle,
+#page .menu-sidebar a:hover,
+#page .menu-sidebar li > span:hover,
+.searchbox .results li.result.selected,
+.searchbox .results li.more-results:hover,
+#page .wk-slideshow .caption a:hover { color: #45AAA2; }
+
+
+#system .item > .links a:hover,
+#system .item > .links a + a:hover { 
+	opacity: 1; 
+	color: #45AAA2;
+	-webkit-transition: color 0.15s linear;
+	-moz-transition: color 0.15s linear;
+	transition: color 0.15s linear;
+}
+
